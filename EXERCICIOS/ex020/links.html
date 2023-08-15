@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+            
+                }
+                a{
+                    color: red;
+                    text-decoration: none;
+                    font-weight: bold
+                }
+                a:visited{
+                    color: green;
+                                }
+                a:hover {
+                    text-decoration: underline;
+                    color: white;
+                                }
+                a:active{ 
+                    color: blueviolet;
+                                }
+                .especial{
+                    background-color: black;
+                
+                }
+                .especial::after {
+                    content:"⇦";
+                    text-decoration: none;
+                    font-weight: bolder;
+                    color: orangered;
+                                    }
+                .especial::before{
+                    content:"⇨";
+                    color: orangered;
+                }
+                h1{
+                    width: 300px;
+                    height: 50px;
+                    background-color: rgb(5, 7, 99);
+                color: white;
+                border-width: 5px;
+                border-style: ridge;
+                border-color: rgb(84, 104, 215);
+                padding: 70px;
+                outline: 3px white dashed;
+                margin: auto;
+                text-align: center;
+                }                  
+                
+                
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+     <ul> 
+        <li><a href="https://github.com/gustavoguanabara/" target="_blank"  >Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCdQFC7PNk2-GStjYb3U6oQQ">Canal no Youtube</a></li>
+        <li><a href="https://www.instagram.com/studio_dapreta/" class="especial">Pagina no Instagram</a></li>
+     </ul>  
+             </body>
+</html>
